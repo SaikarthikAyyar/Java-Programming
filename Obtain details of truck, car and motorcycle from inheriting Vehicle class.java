@@ -33,14 +33,6 @@ class Truck extends Vehicle {
     String model = "Tatra 810 4x4";
     int year = 2022;
     String fuelType = "Diesel";
-    public static void averageSpeed(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the total distance travelled in meters:");
-        float meters = scanner.nextFloat();
-        System.out.print("\nEnter total time of journey in seconds:");
-        float time=scanner.nextFloat();
-        System.out.println("The average speed is:" + (meters/time));
-    }
 }
 class Car extends Vehicle {
     String model = "Virtus";
